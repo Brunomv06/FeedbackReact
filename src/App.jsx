@@ -11,7 +11,7 @@ export function App() {
     submited === false ? ( 
       <CardInicial setSubimited={setSubimited} rateNote={rateNote} setRateNote={setRateNote} />
     ) : (
-      <CardFinal rateNote={rateNote}/>
+      <CardFinal rateNote={rateNote} />
     )
   )
 }
